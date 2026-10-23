@@ -1,0 +1,52 @@
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+credentials.json
+service-account.json
+service-account*.json
+.secrets/
+secrets/
+sessions/
+node_modules/
+*.map
+# Local datasets and artifacts
+/data/local/
+/data/clean/
+/data/final/
+/data/*.jsonl
+/pretrained/
+/saved/
+/outputs/
+/dist/
+/docs/release/
+/test_output/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+*.log
+# Editor and local agent configuration
+.idea/
+.vscode/
+.claude/
+.codex/
+.DS_Store
+Thumbs.db

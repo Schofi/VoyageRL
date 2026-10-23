@@ -1,0 +1,9 @@
+# Minimal dependencies for offline tests (no GPU, model weights or API calls).
+pytest>=8.3,<9
+pytest-asyncio>=0.25,<1
+openai==2.32.0
+httpx==0.28.1
+python-dotenv==1.2.2
+json_repair==0.59.9
+json5>=0.9,<1
+pydantic>=2,<3
